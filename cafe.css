@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --pink: rgb(243, 59, 59);
+}
+/* mobile */
+@media (max-width:720px){
+    .LinhVu2019-2022{
+        width: 100%;
+        height: 1000px;
+        background-image:url(backgroud_nen.jpg);
+    }
+    .nav{
+        width: 100%;
+        height: 50px;
+        background: var(--pink);
+        position: fixed;
+        background-image: linear-gradient(rgb(254, 102, 125), rgb(255, 89, 89));
+    }
+    .nav-linhvu{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        line-height: 48px;
+    }
+    .linhvu-link{
+        font-weight: 600;
+        font-family: 'Estonia', cursive;
+        font-size: 25px;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: white;
+    }
+    .linhvu-link:hover{
+        background: linear-gradient(-60.76deg, rgb(150, 121, 255) 0%, rgb(212, 153, 234) 57.96%, rgb(238, 164, 179) 100%);
+    }
+    .nav-linhvu .love{
+        padding:0px 20px;
+        color: white;
+    }
+    .nav-linhvu .love:hover{
+        color: rgb(138, 39, 56);
+    }
+    /* img */
+    #banner-linhvu{
+        width: 100%;
+        text-align: center;
+    }
+    .text-banner{
+        color: white;
+        margin-top: -100px;
+        display: block;
+        font-family: 'Estonia', cursive;
+        letter-spacing: 10px;
+        font-weight: 500;
+    }
+    .anh{
+        margin-top: 80px;
+        width: 70%;
+        box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    }
+    /* text */
+    #text-backgroud{
+        display: block;
+        text-align: center;
+        margin-top: 100px;
+        width: 100%;
+        min-height: auto;
+        background: white;
+        box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    }
+    .title{
+        font-size: 18px;
+        font-family: 'Lobster', cursive;
+    }
+    .ngay10th8{
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Estonia', cursive;
+    }
+    .contens{
+        padding: 0px 15px 15px 15px;
+        margin-top: 20px;
+        text-align: justify;
+        font-size: 13px;
+    }
+    .Ki{
+        font-family: 'Estonia', cursive;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    /* dulich */
+    #DuLich{
+        margin-top: 100px;
+        width: 100%;
+        min-height: auto;
+    }
+    .text-banner1{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin-top: -100px;
+        display: block;
+        font-family: 'Estonia', cursive;
+        letter-spacing: 10px;
+        font-weight: 800;
+    }
+    .img{
+        text-align: center;
+        background: url(11.jpg);
+    }
+    .one{
+        border: 2px solid var(--pink);
+        margin: 15px;
+        width: 200px;
+        height: 200px;
+        box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 20%);
+    }
+    .time{
+        color: white;
+        font-size: 13px;
+        letter-spacing: 3px;
+    }
+
+    /* lưu bút */
+    .Luubut{
+        margin-top: 100px;
+        width: 100%;
+        min-height: auto;
+    }
+    .hocsinh{
+        text-align: center;
+        background: url(16.jpg);
+    }
+    .text-luubut{
+        padding: 50px 0 10px 0;
+        font-size: 30px;
+        font-family: 'Lobster', cursive;
+    }
+    .two{
+        border: 2px solid rgb(255, 255, 255);
+        margin: 5px 5px 20px 5px;
+        width: 140px;
+        height: 80px;
+    }
+}
